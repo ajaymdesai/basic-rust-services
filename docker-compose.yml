@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  rustytest:
-    image: rustytest
+  http-helloworld-server:
+    image: rust-servers
     build:
       context: .
       dockerfile: ./Dockerfile

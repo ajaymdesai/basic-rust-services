@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2018"
 
 [[bin]] # Bin to run the HelloWorld HTTP server
-name = "http-hellowworld-server"
+name = "http-helloworld-server"
 path = "src/http_server.rs"
 
 [[bin]] # Bin to run the HelloWorld gRPC server
