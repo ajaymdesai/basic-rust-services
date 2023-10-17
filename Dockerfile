@@ -1,5 +1,5 @@
 FROM rust:1.55-bullseye as builder
-LABEL Name=rustytest Version=0.0.1
+LABEL Name=rust-servers Version=0.0.1
 WORKDIR /usr/src
 COPY . .
 RUN cargo install --path .
